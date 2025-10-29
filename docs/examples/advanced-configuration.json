@@ -1,0 +1,144 @@
+{
+  "profile": {
+    "name": "Maya Creative Studio",
+    "bio": "🎨 Transforming brands through bold design and strategic storytelling. Let's create something extraordinary together!",
+    "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop&crop=face",
+    "location": "New York, NY"
+  },
+  "links": [
+    {
+      "title": "🚀 New Brand Packages",
+      "url": "https://mayacreative.studio/packages",
+      "description": "Complete branding solutions starting at $5,000 - Limited time offer!",
+      "icon": "star",
+      "enabled": true,
+      "newTab": true,
+      "featured": true
+    },
+    {
+      "title": "Portfolio",
+      "url": "https://mayacreative.studio/work",
+      "description": "View our latest brand transformations and success stories",
+      "icon": "briefcase",
+      "enabled": true,
+      "newTab": true,
+      "featured": false
+    },
+    {
+      "title": "Free Brand Audit",
+      "url": "https://mayacreative.studio/audit",
+      "description": "Get a comprehensive analysis of your brand's potential",
+      "icon": "search",
+      "enabled": true,
+      "newTab": true,
+      "featured": true
+    },
+    {
+      "title": "Case Studies",
+      "url": "https://mayacreative.studio/case-studies",
+      "description": "Deep dives into our most impactful brand projects",
+      "icon": "file-text",
+      "enabled": true,
+      "newTab": true,
+      "featured": false
+    },
+    {
+      "title": "Design Resources",
+      "url": "https://resources.mayacreative.studio",
+      "description": "Free templates, guides, and design inspiration",
+      "icon": "download",
+      "enabled": true,
+      "newTab": true,
+      "featured": false
+    },
+    {
+      "title": "Book Strategy Call",
+      "url": "https://calendly.com/maya-creative-studio/strategy",
+      "description": "30-minute free consultation to discuss your brand goals",
+      "icon": "calendar",
+      "enabled": true,
+      "newTab": true,
+      "featured": true
+    },
+    {
+      "title": "Design Blog",
+      "url": "https://blog.mayacreative.studio",
+      "description": "Latest trends, tips, and insights from the design world",
+      "icon": "book-open",
+      "enabled": true,
+      "newTab": true,
+      "featured": false
+    },
+    {
+      "title": "Client Portal",
+      "url": "https://portal.mayacreative.studio",
+      "description": "Existing clients can access project files and updates",
+      "icon": "lock",
+      "enabled": true,
+      "newTab": true,
+      "featured": false
+    },
+    {
+      "title": "Workshop: Brand Strategy 101",
+      "url": "https://mayacreative.studio/workshop",
+      "description": "Learn the fundamentals of building a strong brand foundation",
+      "icon": "users",
+      "enabled": true,
+      "newTab": true,
+      "featured": false
+    },
+    {
+      "title": "Contact Us",
+      "url": "mailto:hello@mayacreative.studio",
+      "description": "Ready to start your brand transformation?",
+      "icon": "mail",
+      "enabled": true,
+      "newTab": false,
+      "featured": false
+    }
+  ],
+  "socialMedia": {
+    "twitter": "mayacreativestudio",
+    "instagram": "maya.creative.studio",
+    "github": "maya-creative",
+    "linkedin": "maya-creative-studio",
+    "youtube": "mayacreativestudio",
+    "tiktok": "mayacreative",
+    "discord": "mayacreative"
+  },
+  "theme": {
+    "colorScheme": "auto",
+    "primaryColor": "#ec4899",
+    "backgroundStyle": "gradient",
+    "fontFamily": "poppins",
+    "buttonStyle": "pill",
+    "buttonAnimation": "glow",
+    "showBorder": false
+  },
+  "layout": {
+    "maxWidth": "lg",
+    "alignment": "center",
+    "spacing": "relaxed",
+    "showProfileFirst": true,
+    "showSocialMedia": true,
+    "socialMediaPosition": "both"
+  },
+  "seo": {
+    "title": "Maya Creative Studio - Brand Design & Strategy",
+    "description": "Transform your brand with Maya Creative Studio. Expert brand design, strategy, and digital experiences that drive results. Free consultation available.",
+    "keywords": "brand design, brand strategy, creative studio, logo design, brand identity, marketing design, New York design agency",
+    "favicon": "https://mayacreative.studio/favicon.ico"
+  },
+  "analytics": {
+    "googleAnalyticsId": "G-XXXXXXXXXX",
+    "facebookPixelId": "1234567890123456",
+    "trackClicks": true,
+    "trackSocialClicks": true
+  },
+  "advanced": {
+    "enablePWA": true,
+    "enableDarkMode": true,
+    "enableAnimations": true,
+    "preloadImages": true
+  }
+}

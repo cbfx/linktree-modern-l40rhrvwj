@@ -1,0 +1,74 @@
+{
+  "profile": {
+    "name": "Alex Smith",
+    "bio": "Welcome to my digital space! Find all my important links here.",
+    "avatar": "https://images.unsplash.com/photo-1494790108755-2616b169c2c1?w=400&h=400&fit=crop&crop=face",
+    "location": "San Francisco, CA"
+  },
+  "links": [
+    {
+      "title": "My Website",
+      "url": "https://alexsmith.com",
+      "description": "Personal website and portfolio",
+      "icon": "globe",
+      "enabled": true,
+      "newTab": true,
+      "featured": false
+    },
+    {
+      "title": "Blog",
+      "url": "https://blog.alexsmith.com",
+      "description": "Thoughts on tech and life",
+      "icon": "book-open",
+      "enabled": true,
+      "newTab": true,
+      "featured": false
+    },
+    {
+      "title": "Contact Me",
+      "url": "mailto:hello@alexsmith.com",
+      "description": "Get in touch via email",
+      "icon": "mail",
+      "enabled": true,
+      "newTab": false,
+      "featured": true
+    }
+  ],
+  "socialMedia": {
+    "twitter": "alexsmith",
+    "instagram": "alexsmith",
+    "github": "alexsmith",
+    "linkedin": "alex-smith"
+  },
+  "theme": {
+    "colorScheme": "auto",
+    "primaryColor": "#6366f1",
+    "backgroundStyle": "gradient",
+    "fontFamily": "inter",
+    "buttonStyle": "rounded",
+    "buttonAnimation": "scale",
+    "showBorder": true
+  },
+  "layout": {
+    "maxWidth": "md",
+    "alignment": "center",
+    "spacing": "normal",
+    "showProfileFirst": true,
+    "showSocialMedia": true,
+    "socialMediaPosition": "bottom"
+  },
+  "seo": {
+    "title": "Alex Smith - Links",
+    "description": "Find all of Alex Smith's important links in one place",
+    "keywords": "Alex Smith, links, portfolio, contact"
+  },
+  "analytics": {
+    "trackClicks": true,
+    "trackSocialClicks": true
+  },
+  "advanced": {
+    "enableDarkMode": true,
+    "enableAnimations": true,
+    "preloadImages": true
+  }
+}

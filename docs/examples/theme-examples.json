@@ -1,0 +1,212 @@
+{
+  "minimalist_light": {
+    "name": "Minimalist Light",
+    "description": "Clean, professional design with minimal colors and sharp edges",
+    "theme": {
+      "colorScheme": "light",
+      "primaryColor": "#000000",
+      "backgroundStyle": "solid",
+      "fontFamily": "inter",
+      "buttonStyle": "square",
+      "buttonAnimation": "none",
+      "showBorder": true
+    },
+    "layout": {
+      "maxWidth": "sm",
+      "alignment": "left",
+      "spacing": "compact",
+      "showProfileFirst": true,
+      "showSocialMedia": true,
+      "socialMediaPosition": "bottom"
+    }
+  },
+  "vibrant_creative": {
+    "name": "Vibrant Creative",
+    "description": "Bold colors and playful animations for creative professionals",
+    "theme": {
+      "colorScheme": "auto",
+      "primaryColor": "#ff6b6b",
+      "backgroundStyle": "gradient",
+      "fontFamily": "poppins",
+      "buttonStyle": "pill",
+      "buttonAnimation": "glow",
+      "showBorder": false
+    },
+    "layout": {
+      "maxWidth": "md",
+      "alignment": "center",
+      "spacing": "relaxed",
+      "showProfileFirst": true,
+      "showSocialMedia": true,
+      "socialMediaPosition": "both"
+    }
+  },
+  "corporate_professional": {
+    "name": "Corporate Professional",
+    "description": "Trustworthy and professional appearance for business use",
+    "theme": {
+      "colorScheme": "auto",
+      "primaryColor": "#2563eb",
+      "backgroundStyle": "solid",
+      "fontFamily": "roboto",
+      "buttonStyle": "rounded",
+      "buttonAnimation": "lift",
+      "showBorder": true
+    },
+    "layout": {
+      "maxWidth": "lg",
+      "alignment": "center",
+      "spacing": "normal",
+      "showProfileFirst": true,
+      "showSocialMedia": true,
+      "socialMediaPosition": "bottom"
+    }
+  },
+  "dark_gamer": {
+    "name": "Dark Gamer",
+    "description": "Dark theme perfect for gaming content creators and streamers",
+    "theme": {
+      "colorScheme": "dark",
+      "primaryColor": "#9146ff",
+      "backgroundStyle": "gradient",
+      "fontFamily": "poppins",
+      "buttonStyle": "rounded",
+      "buttonAnimation": "scale",
+      "showBorder": true
+    },
+    "layout": {
+      "maxWidth": "md",
+      "alignment": "center",
+      "spacing": "normal",
+      "showProfileFirst": true,
+      "showSocialMedia": true,
+      "socialMediaPosition": "both"
+    }
+  },
+  "elegant_serif": {
+    "name": "Elegant Serif",
+    "description": "Sophisticated serif typography for writers and artists",
+    "theme": {
+      "colorScheme": "light",
+      "primaryColor": "#8b5a3c",
+      "backgroundStyle": "solid",
+      "fontFamily": "playfair",
+      "buttonStyle": "rounded",
+      "buttonAnimation": "lift",
+      "showBorder": true
+    },
+    "layout": {
+      "maxWidth": "md",
+      "alignment": "center",
+      "spacing": "relaxed",
+      "showProfileFirst": true,
+      "showSocialMedia": true,
+      "socialMediaPosition": "bottom"
+    }
+  },
+  "tech_startup": {
+    "name": "Tech Startup",
+    "description": "Modern gradient design for tech companies and startups",
+    "theme": {
+      "colorScheme": "auto",
+      "primaryColor": "#06b6d4",
+      "backgroundStyle": "gradient",
+      "fontFamily": "inter",
+      "buttonStyle": "rounded",
+      "buttonAnimation": "scale",
+      "showBorder": false
+    },
+    "layout": {
+      "maxWidth": "lg",
+      "alignment": "center",
+      "spacing": "normal",
+      "showProfileFirst": true,
+      "showSocialMedia": true,
+      "socialMediaPosition": "bottom"
+    }
+  },
+  "wellness_coach": {
+    "name": "Wellness Coach",
+    "description": "Calming green tones perfect for wellness and health professionals",
+    "theme": {
+      "colorScheme": "light",
+      "primaryColor": "#10b981",
+      "backgroundStyle": "gradient",
+      "fontFamily": "poppins",
+      "buttonStyle": "pill",
+      "buttonAnimation": "lift",
+      "showBorder": false
+    },
+    "layout": {
+      "maxWidth": "md",
+      "alignment": "center",
+      "spacing": "relaxed",
+      "showProfileFirst": true,
+      "showSocialMedia": true,
+      "socialMediaPosition": "bottom"
+    }
+  },
+  "musician_artist": {
+    "name": "Musician Artist",
+    "description": "Bold purple design with dynamic animations for musicians",
+    "theme": {
+      "colorScheme": "dark",
+      "primaryColor": "#8b5cf6",
+      "backgroundStyle": "gradient",
+      "fontFamily": "montserrat",
+      "buttonStyle": "pill",
+      "buttonAnimation": "glow",
+      "showBorder": false
+    },
+    "layout": {
+      "maxWidth": "md",
+      "alignment": "center",
+      "spacing": "normal",
+      "showProfileFirst": true,
+      "showSocialMedia": true,
+      "socialMediaPosition": "both"
+    }
+  },
+  "food_blogger": {
+    "name": "Food Blogger",
+    "description": "Warm orange tones perfect for food and lifestyle content",
+    "theme": {
+      "colorScheme": "auto",
+      "primaryColor": "#f59e0b",
+      "backgroundStyle": "solid",
+      "fontFamily": "poppins",
+      "buttonStyle": "rounded",
+      "buttonAnimation": "scale",
+      "showBorder": true
+    },
+    "layout": {
+      "maxWidth": "md",
+      "alignment": "center",
+      "spacing": "normal",
+      "showProfileFirst": true,
+      "showSocialMedia": true,
+      "socialMediaPosition": "bottom"
+    }
+  },
+  "fitness_trainer": {
+    "name": "Fitness Trainer",
+    "description": "Energetic red design for fitness and sports professionals",
+    "theme": {
+      "colorScheme": "auto",
+      "primaryColor": "#ef4444",
+      "backgroundStyle": "gradient",
+      "fontFamily": "roboto",
+      "buttonStyle": "square",
+      "buttonAnimation": "lift",
+      "showBorder": true
+    },
+    "layout": {
+      "maxWidth": "lg",
+      "alignment": "center",
+      "spacing": "normal",
+      "showProfileFirst": true,
+      "showSocialMedia": true,
+      "socialMediaPosition": "both"
+    }
+  }
+}

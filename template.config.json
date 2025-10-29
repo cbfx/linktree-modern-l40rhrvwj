@@ -1,0 +1,57 @@
+{
+  "name": "LinkTree Modern",
+  "version": "1.0.0",
+  "description": "Modern link-in-bio template",
+  "templateId": "linktree-modern",
+  "repository": "github.com/nailthelanding/template-linktree-modern",
+  "category": "links",
+  "tags": ["linktree", "bio-link", "social", "profile"],
+
+  "slots": {
+    "profile": {
+      "type": "object",
+      "required": false,
+      "accepts": ["profile"]
+    },
+    "links": {
+      "type": "array",
+      "required": true,
+      "max": 20,
+      "accepts": ["link", "heading", "divider"]
+    },
+    "footer": {
+      "type": "object",
+      "required": false,
+      "accepts": ["social-links"]
+    }
+  },
+
+  "components": {
+    "profile": {
+      "name": { "type": "string", "required": true, "maxLength": 100 },
+      "bio": { "type": "string", "maxLength": 500 },
+      "avatar": { "type": "url" }
+    },
+    "link": {
+      "title": { "type": "string", "required": true, "maxLength": 100 },
+      "url": { "type": "url", "required": true },
+      "description": { "type": "string", "maxLength": 200 }
+    },
+    "heading": {
+      "text": { "type": "string", "required": true, "maxLength": 100 }
+    },
+    "divider": {},
+    "social-links": {
+      "twitter": { "type": "string" },
+      "github": { "type": "string" },
+      "linkedin": { "type": "string" },
+      "instagram": { "type": "string" }
+    }
+  },
+
+  "settings": {
+    "subdomain": { "type": "string", "required": true, "pattern": "^[a-z0-9-]+$" },
+    "title": { "type": "string", "default": "My Links" },
+    "description": { "type": "string", "default": "Find all my links in one place" }
+  }
+}

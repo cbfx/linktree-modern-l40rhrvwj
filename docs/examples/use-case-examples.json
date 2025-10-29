@@ -1,0 +1,399 @@
+{
+  "personal_brand": {
+    "name": "Personal Brand - Content Creator",
+    "description": "Perfect setup for content creators and influencers",
+    "profile": {
+      "name": "Sarah Chen",
+      "bio": "Content creator, photographer, and digital nomad. Sharing my adventures and creative journey around the world 📸✈️",
+      "avatar": "https://images.unsplash.com/photo-1494790108755-2616b169c2c1?w=400&h=400&fit=crop&crop=face",
+      "location": "Currently in Bali"
+    },
+    "links": [
+      {
+        "title": "🎥 Latest YouTube Video",
+        "url": "https://youtube.com/watch?v=example",
+        "description": "My top 10 photography tips for beginners",
+        "icon": "play",
+        "featured": true
+      },
+      {
+        "title": "Photography Portfolio",
+        "url": "https://sarahchen.photography",
+        "description": "View my latest work and photo collections",
+        "icon": "camera"
+      },
+      {
+        "title": "Travel Blog",
+        "url": "https://blog.sarahchen.com",
+        "description": "Stories and guides from my travels",
+        "icon": "map"
+      },
+      {
+        "title": "Lightroom Presets",
+        "url": "https://shop.sarahchen.com/presets",
+        "description": "Download my signature editing presets",
+        "icon": "download",
+        "featured": true
+      },
+      {
+        "title": "1:1 Mentoring",
+        "url": "https://calendly.com/sarah-chen/mentoring",
+        "description": "Book a personalized photography session",
+        "icon": "users"
+      }
+    ],
+    "socialMedia": {
+      "instagram": "sarahchen.photo",
+      "youtube": "sarahchenphoto",
+      "twitter": "sarahchenphoto",
+      "tiktok": "sarahchen.photo"
+    },
+    "theme": {
+      "colorScheme": "auto",
+      "primaryColor": "#ec4899",
+      "backgroundStyle": "gradient",
+      "fontFamily": "poppins",
+      "buttonStyle": "pill",
+      "buttonAnimation": "glow"
+    }
+  },
+  "small_business": {
+    "name": "Small Business - Local Coffee Shop",
+    "description": "Local business with menu, ordering, and social links",
+    "profile": {
+      "name": "Brew & Bean Coffee",
+      "bio": "☕ Artisan coffee roasted fresh daily. Cozy atmosphere, friendly service, and the best pastries in town. Open 6 AM - 8 PM daily.",
+      "avatar": "https://images.unsplash.com/photo-1447933601403-0c6688de566e?w=400&h=400&fit=crop&crop=center",
+      "location": "Downtown Portland, OR"
+    },
+    "links": [
+      {
+        "title": "📱 Order Online",
+        "url": "https://order.brewandbean.com",
+        "description": "Skip the line - order ahead for pickup",
+        "icon": "smartphone",
+        "featured": true
+      },
+      {
+        "title": "Menu & Prices",
+        "url": "https://brewandbean.com/menu",
+        "description": "View our full coffee and food menu",
+        "icon": "book-open"
+      },
+      {
+        "title": "Catering Services",
+        "url": "https://brewandbean.com/catering",
+        "description": "Coffee catering for events and offices",
+        "icon": "truck"
+      },
+      {
+        "title": "Coffee Subscription",
+        "url": "https://shop.brewandbean.com/subscription",
+        "description": "Fresh beans delivered to your door monthly",
+        "icon": "package",
+        "featured": true
+      },
+      {
+        "title": "Private Events",
+        "url": "https://brewandbean.com/events",
+        "description": "Book our space for your next gathering",
+        "icon": "calendar"
+      },
+      {
+        "title": "Gift Cards",
+        "url": "https://shop.brewandbean.com/gift-cards",
+        "description": "Perfect gift for coffee lovers",
+        "icon": "gift"
+      }
+    ],
+    "socialMedia": {
+      "instagram": "brewandbeanpdx",
+      "facebook": "brewandbeanportland",
+      "yelp": "brew-and-bean-portland"
+    },
+    "theme": {
+      "colorScheme": "auto",
+      "primaryColor": "#8b5a3c",
+      "backgroundStyle": "solid",
+      "fontFamily": "poppins",
+      "buttonStyle": "rounded",
+      "buttonAnimation": "lift"
+    }
+  },
+  "freelancer": {
+    "name": "Freelancer - Web Developer",
+    "description": "Professional freelancer showcasing services and portfolio",
+    "profile": {
+      "name": "Alex Rodriguez",
+      "bio": "Full-stack developer specializing in React, Node.js, and cloud architecture. Helping businesses build scalable web applications since 2018.",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face",
+      "location": "Austin, TX (Remote Available)"
+    },
+    "links": [
+      {
+        "title": "💼 Hire Me",
+        "url": "https://alexrodriguez.dev/hire",
+        "description": "Start your project with a free consultation",
+        "icon": "briefcase",
+        "featured": true
+      },
+      {
+        "title": "Portfolio",
+        "url": "https://portfolio.alexrodriguez.dev",
+        "description": "View my latest web development projects",
+        "icon": "monitor"
+      },
+      {
+        "title": "Services & Pricing",
+        "url": "https://alexrodriguez.dev/services",
+        "description": "Web development packages and hourly rates",
+        "icon": "dollar-sign"
+      },
+      {
+        "title": "Client Testimonials",
+        "url": "https://alexrodriguez.dev/testimonials",
+        "description": "What my clients say about working with me",
+        "icon": "star"
+      },
+      {
+        "title": "Tech Blog",
+        "url": "https://blog.alexrodriguez.dev",
+        "description": "Tutorials and insights on web development",
+        "icon": "book-open"
+      },
+      {
+        "title": "Free Website Audit",
+        "url": "https://alexrodriguez.dev/audit",
+        "description": "Get a detailed analysis of your current site",
+        "icon": "search",
+        "featured": true
+      },
+      {
+        "title": "Schedule Call",
+        "url": "https://calendly.com/alex-rodriguez/consultation",
+        "description": "Book a 30-minute strategy session",
+        "icon": "phone"
+      }
+    ],
+    "socialMedia": {
+      "github": "alexrodriguez-dev",
+      "linkedin": "alex-rodriguez-developer",
+      "twitter": "alexdevs",
+      "stackoverflow": "alex-rodriguez"
+    },
+    "theme": {
+      "colorScheme": "auto",
+      "primaryColor": "#2563eb",
+      "backgroundStyle": "gradient",
+      "fontFamily": "inter",
+      "buttonStyle": "rounded",
+      "buttonAnimation": "scale"
+    }
+  },
+  "musician": {
+    "name": "Musician - Indie Artist",
+    "description": "Independent musician sharing music and upcoming shows",
+    "profile": {
+      "name": "Luna Rivers",
+      "bio": "🎵 Indie folk artist weaving stories through melody. New album 'Midnight Waters' out now on all platforms. Currently touring the West Coast.",
+      "avatar": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop&crop=face",
+      "location": "Los Angeles, CA"
+    },
+    "links": [
+      {
+        "title": "🎵 Stream 'Midnight Waters'",
+        "url": "https://linktr.ee/luna-rivers-music",
+        "description": "New album available on Spotify, Apple Music & more",
+        "icon": "music",
+        "featured": true
+      },
+      {
+        "title": "🎫 Tour Dates",
+        "url": "https://lunariversmusic.com/tour",
+        "description": "Find a show near you and get tickets",
+        "icon": "calendar",
+        "featured": true
+      },
+      {
+        "title": "Music Videos",
+        "url": "https://youtube.com/lunariversmusic",
+        "description": "Watch my latest music videos and behind-the-scenes",
+        "icon": "video"
+      },
+      {
+        "title": "Merch Store",
+        "url": "https://shop.lunariversmusic.com",
+        "description": "T-shirts, vinyl records, and signed albums",
+        "icon": "shopping-bag"
+      },
+      {
+        "title": "Patreon",
+        "url": "https://patreon.com/lunariversmusic",
+        "description": "Support my music and get exclusive content",
+        "icon": "heart"
+      },
+      {
+        "title": "Booking Inquiry",
+        "url": "mailto:booking@lunariversmusic.com",
+        "description": "Book Luna Rivers for your venue or event",
+        "icon": "mail"
+      }
+    ],
+    "socialMedia": {
+      "spotify": "luna-rivers",
+      "instagram": "lunariversmusic",
+      "youtube": "lunariversmusic",
+      "tiktok": "lunariversmusic",
+      "facebook": "lunariversmusic"
+    },
+    "theme": {
+      "colorScheme": "dark",
+      "primaryColor": "#8b5cf6",
+      "backgroundStyle": "gradient",
+      "fontFamily": "poppins",
+      "buttonStyle": "pill",
+      "buttonAnimation": "glow"
+    }
+  },
+  "nonprofit": {
+    "name": "Non-Profit Organization",
+    "description": "Environmental nonprofit with donation and volunteer links",
+    "profile": {
+      "name": "Ocean Guardians",
+      "bio": "🌊 Protecting marine ecosystems through conservation, education, and community action. Join us in safeguarding our oceans for future generations.",
+      "avatar": "https://images.unsplash.com/photo-1583212292454-1fe6229603b7?w=400&h=400&fit=crop&crop=center",
+      "location": "Global Organization"
+    },
+    "links": [
+      {
+        "title": "💙 Donate Now",
+        "url": "https://oceanquardians.org/donate",
+        "description": "Help us protect marine life and ocean habitats",
+        "icon": "heart",
+        "featured": true
+      },
+      {
+        "title": "Volunteer Opportunities",
+        "url": "https://oceanquardians.org/volunteer",
+        "description": "Join beach cleanups and conservation projects",
+        "icon": "users",
+        "featured": true
+      },
+      {
+        "title": "Our Impact",
+        "url": "https://oceanquardians.org/impact",
+        "description": "See how your support is making a difference",
+        "icon": "bar-chart"
+      },
+      {
+        "title": "Educational Resources",
+        "url": "https://learn.oceanquardians.org",
+        "description": "Free resources about ocean conservation",
+        "icon": "book-open"
+      },
+      {
+        "title": "Adopt a Coral Reef",
+        "url": "https://oceanquardians.org/adopt-reef",
+        "description": "Sponsor coral restoration efforts",
+        "icon": "anchor"
+      },
+      {
+        "title": "Monthly Newsletter",
+        "url": "https://oceanquardians.org/newsletter",
+        "description": "Stay updated on our conservation efforts",
+        "icon": "mail"
+      },
+      {
+        "title": "Corporate Partnerships",
+        "url": "https://oceanquardians.org/partners",
+        "description": "Partner with us for ocean conservation",
+        "icon": "handshake"
+      }
+    ],
+    "socialMedia": {
+      "instagram": "oceanquardians",
+      "facebook": "oceanquardians",
+      "twitter": "oceanquardians",
+      "youtube": "oceanquardians",
+      "linkedin": "ocean-guardians-org"
+    },
+    "theme": {
+      "colorScheme": "auto",
+      "primaryColor": "#0891b2",
+      "backgroundStyle": "gradient",
+      "fontFamily": "roboto",
+      "buttonStyle": "rounded",
+      "buttonAnimation": "lift"
+    }
+  },
+  "fitness_coach": {
+    "name": "Fitness Coach - Personal Trainer",
+    "description": "Personal trainer offering online coaching and programs",
+    "profile": {
+      "name": "Marcus Strong",
+      "bio": "💪 Certified personal trainer and nutrition coach. Helping you build strength, confidence, and healthy habits that last. Transform your life today!",
+      "avatar": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=400&fit=crop&crop=face",
+      "location": "Miami, FL + Online"
+    },
+    "links": [
+      {
+        "title": "🔥 Start Your Transformation",
+        "url": "https://marcusstrong.fit/programs",
+        "description": "12-week body transformation program",
+        "icon": "zap",
+        "featured": true
+      },
+      {
+        "title": "Free Workout Plans",
+        "url": "https://marcusstrong.fit/free-workouts",
+        "description": "Download beginner to advanced workout routines",
+        "icon": "download"
+      },
+      {
+        "title": "Nutrition Coaching",
+        "url": "https://marcusstrong.fit/nutrition",
+        "description": "Personalized meal plans and nutrition guidance",
+        "icon": "apple"
+      },
+      {
+        "title": "Online Personal Training",
+        "url": "https://marcusstrong.fit/personal-training",
+        "description": "1-on-1 virtual training sessions",
+        "icon": "video",
+        "featured": true
+      },
+      {
+        "title": "Fitness App",
+        "url": "https://app.marcusstrong.fit",
+        "description": "Track workouts, progress, and get daily motivation",
+        "icon": "smartphone"
+      },
+      {
+        "title": "Success Stories",
+        "url": "https://marcusstrong.fit/transformations",
+        "description": "Real results from real clients",
+        "icon": "trophy"
+      },
+      {
+        "title": "Book Free Consultation",
+        "url": "https://calendly.com/marcus-strong/consultation",
+        "description": "Discuss your fitness goals with Marcus",
+        "icon": "calendar"
+      }
+    ],
+    "socialMedia": {
+      "instagram": "marcusstrong.fit",
+      "youtube": "marcusstrongfitness",
+      "tiktok": "marcusstrong.fit",
+      "facebook": "marcusstrongfitness"
+    },
+    "theme": {
+      "colorScheme": "auto",
+      "primaryColor": "#ef4444",
+      "backgroundStyle": "gradient",
+      "fontFamily": "roboto",
+      "buttonStyle": "square",
+      "buttonAnimation": "lift"
+    }
+  }
+}

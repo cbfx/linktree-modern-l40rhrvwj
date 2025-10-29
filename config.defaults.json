@@ -1,0 +1,92 @@
+{
+  "profile": {
+    "name": "Your Name",
+    "bio": "Welcome to my links! Find all my important stuff here.",
+    "avatar": "https://via.placeholder.com/400x400/6366f1/ffffff?text=You",
+    "location": ""
+  },
+  "links": [
+    {
+      "title": "My Website",
+      "url": "https://example.com",
+      "description": "Check out my main website",
+      "icon": "globe",
+      "enabled": true,
+      "newTab": true,
+      "featured": false
+    },
+    {
+      "title": "Contact Me",
+      "url": "mailto:hello@example.com",
+      "description": "Get in touch via email",
+      "icon": "mail",
+      "enabled": true,
+      "newTab": false,
+      "featured": true
+    },
+    {
+      "title": "My Blog",
+      "url": "https://blog.example.com",
+      "description": "Read my latest thoughts and updates",
+      "icon": "book-open",
+      "enabled": true,
+      "newTab": true,
+      "featured": false
+    },
+    {
+      "title": "Portfolio",
+      "url": "https://portfolio.example.com",
+      "description": "View my work and projects",
+      "icon": "briefcase",
+      "enabled": true,
+      "newTab": true,
+      "featured": false
+    }
+  ],
+  "socialMedia": {
+    "twitter": "",
+    "instagram": "",
+    "github": "",
+    "linkedin": "",
+    "youtube": "",
+    "tiktok": "",
+    "discord": "",
+    "twitch": ""
+  },
+  "theme": {
+    "colorScheme": "auto",
+    "primaryColor": "#6366f1",
+    "backgroundStyle": "gradient",
+    "backgroundImage": "",
+    "fontFamily": "inter",
+    "buttonStyle": "rounded",
+    "buttonAnimation": "scale",
+    "showBorder": true
+  },
+  "layout": {
+    "maxWidth": "md",
+    "alignment": "center",
+    "spacing": "normal",
+    "showProfileFirst": true,
+    "showSocialMedia": true,
+    "socialMediaPosition": "bottom"
+  },
+  "seo": {
+    "title": "My Links",
+    "description": "Find all my important links in one place",
+    "keywords": "links, profile, bio, social media",
+    "favicon": ""
+  },
+  "analytics": {
+    "googleAnalyticsId": "",
+    "facebookPixelId": "",
+    "trackClicks": true,
+    "trackSocialClicks": true
+  },
+  "advanced": {
+    "enablePWA": false,
+    "enableDarkMode": true,
+    "enableAnimations": true,
+    "preloadImages": true
+  }
+}

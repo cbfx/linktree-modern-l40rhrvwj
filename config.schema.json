@@ -1,0 +1,269 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "LinkTree Modern Configuration",
+  "description": "Configuration schema for the LinkTree Modern template",
+  "type": "object",
+  "properties": {
+    "socialMedia": {
+      "type": "object",
+      "title": "Social Media Links",
+      "description": "Your social media profiles",
+      "properties": {
+        "twitter": {
+          "type": "string",
+          "title": "Twitter/X Username",
+          "description": "Your Twitter/X handle (without @)",
+          "pattern": "^[A-Za-z0-9_]{1,15}$"
+        },
+        "instagram": {
+          "type": "string",
+          "title": "Instagram Username",
+          "description": "Your Instagram handle (without @)",
+          "pattern": "^[A-Za-z0-9_.]{1,30}$"
+        },
+        "github": {
+          "type": "string",
+          "title": "GitHub Username",
+          "description": "Your GitHub username",
+          "pattern": "^[A-Za-z0-9-]{1,39}$"
+        },
+        "linkedin": {
+          "type": "string",
+          "title": "LinkedIn Username",
+          "description": "Your LinkedIn username or custom URL",
+          "pattern": "^[A-Za-z0-9-]{3,100}$"
+        },
+        "youtube": {
+          "type": "string",
+          "title": "YouTube Channel",
+          "description": "Your YouTube channel handle or ID"
+        },
+        "tiktok": {
+          "type": "string",
+          "title": "TikTok Username",
+          "description": "Your TikTok handle (without @)",
+          "pattern": "^[A-Za-z0-9_.]{1,24}$"
+        },
+        "discord": {
+          "type": "string",
+          "title": "Discord Server Invite",
+          "description": "Discord server invite code or full URL"
+        },
+        "twitch": {
+          "type": "string",
+          "title": "Twitch Username",
+          "description": "Your Twitch channel name",
+          "pattern": "^[A-Za-z0-9_]{4,25}$"
+        }
+      }
+    },
+    "theme": {
+      "type": "object",
+      "title": "Theme Settings",
+      "description": "Visual appearance and theme configuration",
+      "properties": {
+        "colorScheme": {
+          "type": "string",
+          "title": "Color Scheme",
+          "description": "Overall color theme",
+          "enum": ["light", "dark", "auto"],
+          "default": "auto"
+        },
+        "primaryColor": {
+          "type": "string",
+          "title": "Primary Color",
+          "description": "Main accent color (hex format)",
+          "pattern": "^#[0-9A-Fa-f]{6}$",
+          "default": "#6366f1"
+        },
+        "backgroundStyle": {
+          "type": "string",
+          "title": "Background Style",
+          "description": "Background appearance",
+          "enum": ["solid", "gradient", "image"],
+          "default": "gradient"
+        },
+        "backgroundImage": {
+          "type": "string",
+          "title": "Background Image URL",
+          "description": "Custom background image (used when backgroundStyle is 'image')",
+          "format": "uri",
+          "pattern": "^https?:\\/\\/[^\\s\\<\\>\"]+\\.(jpg|jpeg|png|gif|webp|svg)([?#].*)?$",
+          "maxLength": 2048
+        },
+        "fontFamily": {
+          "type": "string",
+          "title": "Font Family",
+          "description": "Typography style",
+          "enum": ["inter", "poppins", "roboto", "montserrat", "playfair"],
+          "default": "inter"
+        },
+        "buttonStyle": {
+          "type": "string",
+          "title": "Button Style",
+          "description": "Link button appearance",
+          "enum": ["rounded", "square", "pill"],
+          "default": "rounded"
+        },
+        "buttonAnimation": {
+          "type": "string",
+          "title": "Button Animation",
+          "description": "Hover animation effect",
+          "enum": ["none", "scale", "glow", "lift"],
+          "default": "scale"
+        },
+        "showBorder": {
+          "type": "boolean",
+          "title": "Show Button Borders",
+          "description": "Add borders to link buttons",
+          "default": true
+        }
+      },
+      "required": ["colorScheme", "primaryColor", "backgroundStyle"]
+    },
+    "layout": {
+      "type": "object",
+      "title": "Layout Settings",
+      "description": "Page layout and spacing configuration",
+      "properties": {
+        "maxWidth": {
+          "type": "string",
+          "title": "Maximum Width",
+          "description": "Maximum width of the content area",
+          "enum": ["sm", "md", "lg", "xl", "full"],
+          "default": "md"
+        },
+        "alignment": {
+          "type": "string",
+          "title": "Content Alignment",
+          "description": "How content is aligned",
+          "enum": ["left", "center", "right"],
+          "default": "center"
+        },
+        "spacing": {
+          "type": "string",
+          "title": "Element Spacing",
+          "description": "Spacing between elements",
+          "enum": ["compact", "normal", "relaxed"],
+          "default": "normal"
+        },
+        "showProfileFirst": {
+          "type": "boolean",
+          "title": "Show Profile First",
+          "description": "Display profile section at the top of the page",
+          "default": true
+        },
+        "showSocialMedia": {
+          "type": "boolean",
+          "title": "Show Social Media",
+          "description": "Display social media icons",
+          "default": true
+        },
+        "socialMediaPosition": {
+          "type": "string",
+          "title": "Social Media Position",
+          "description": "Where to place social media icons",
+          "enum": ["top", "bottom", "both"],
+          "default": "bottom"
+        }
+      }
+    },
+    "seo": {
+      "type": "object",
+      "title": "SEO Settings",
+      "description": "Search engine optimization settings",
+      "properties": {
+        "title": {
+          "type": "string",
+          "title": "Page Title",
+          "description": "HTML page title (appears in browser tab)",
+          "default": "My Links",
+          "maxLength": 60
+        },
+        "description": {
+          "type": "string",
+          "title": "Meta Description",
+          "description": "Page description for search engines",
+          "default": "Find all my important links in one place",
+          "maxLength": 160
+        },
+        "keywords": {
+          "type": "string",
+          "title": "Keywords",
+          "description": "Comma-separated keywords for SEO",
+          "default": "links, profile, bio, social media"
+        },
+        "favicon": {
+          "type": "string",
+          "title": "Favicon URL",
+          "description": "Custom favicon (16x16 or 32x32 px)",
+          "format": "uri",
+          "pattern": "^https?:\\/\\/[^\\s\\<\\>\"]+\\.(ico|png|svg|gif)([?#].*)?$",
+          "maxLength": 2048
+        }
+      }
+    },
+    "analytics": {
+      "type": "object",
+      "title": "Analytics Settings",
+      "description": "Analytics and tracking configuration",
+      "properties": {
+        "googleAnalyticsId": {
+          "type": "string",
+          "title": "Google Analytics ID",
+          "description": "Google Analytics tracking ID (GA4 format: G-XXXXXXXXXX)",
+          "pattern": "^G-[A-Z0-9]{10}$"
+        },
+        "facebookPixelId": {
+          "type": "string",
+          "title": "Facebook Pixel ID",
+          "description": "Facebook Pixel tracking ID"
+        },
+        "trackClicks": {
+          "type": "boolean",
+          "title": "Track Link Clicks",
+          "description": "Track when visitors click on links",
+          "default": true
+        },
+        "trackSocialClicks": {
+          "type": "boolean",
+          "title": "Track Social Media Clicks",
+          "description": "Track clicks on social media icons",
+          "default": true
+        }
+      }
+    },
+    "advanced": {
+      "type": "object",
+      "title": "Advanced Settings",
+      "description": "Advanced customization options",
+      "properties": {
+        "enablePWA": {
+          "type": "boolean",
+          "title": "Enable PWA Features",
+          "description": "Make the site installable as a Progressive Web App",
+          "default": false
+        },
+        "enableDarkMode": {
+          "type": "boolean",
+          "title": "Enable Dark Mode Toggle",
+          "description": "Allow visitors to toggle between light and dark modes",
+          "default": true
+        },
+        "enableAnimations": {
+          "type": "boolean",
+          "title": "Enable Animations",
+          "description": "Enable page animations and transitions",
+          "default": true
+        },
+        "preloadImages": {
+          "type": "boolean",
+          "title": "Preload Images",
+          "description": "Preload profile and background images for faster loading",
+          "default": true
+        }
+      }
+    }
+  },
+  "required": ["theme", "layout", "seo"]
+}
