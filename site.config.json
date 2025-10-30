@@ -1,9 +1,9 @@
 {
   "templateId": "linktree-modern",
   "settings": {
-    "subdomain": "testlink123",
+    "subdomain": "newflow456",
     "title": "My Test Links",
-    "description": "Testing the API flow"
+    "description": "Testing the new ID format"
   },
   "content": {
     "profile": {
