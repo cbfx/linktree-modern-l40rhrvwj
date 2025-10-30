@@ -1,0 +1,37 @@
+{
+  "templateId": "linktree-modern",
+  "settings": {
+    "subdomain": "testlink123",
+    "title": "My Test Links",
+    "description": "Testing the API flow"
+  },
+  "content": {
+    "profile": {
+      "name": "Test User",
+      "bio": "This is a test bio",
+      "avatar": "https://via.placeholder.com/150"
+    },
+    "links": [
+      {
+        "type": "heading",
+        "text": "My Links"
+      },
+      {
+        "type": "link",
+        "title": "GitHub",
+        "url": "https://github.com",
+        "description": "Check out my code"
+      },
+      {
+        "type": "link",
+        "title": "Twitter",
+        "url": "https://twitter.com",
+        "description": "Follow me on Twitter"
+      }
+    ],
+    "footer": {
+      "twitter": "@testuser",
+      "github": "testuser"
+    }
+  }
+}
